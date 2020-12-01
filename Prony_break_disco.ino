@@ -19,8 +19,8 @@ const int LOADCELL_DOUT_PIN = D5;
 const int LOADCELL_SCK_PIN = D6;
 HX711 scale;
 
-const char* ssid = "HUIS OI FIBRA 2G"; // "termofluidos";
-const char* password = "35627436"; //  "fg@t&rm0flwydos";
+const char* ssid =  "xxxxxx"; //
+ const char* password =  "yyyyyyy"; // 
 int ModbusTCP_port = 502;
 
 int sensorValue; 
