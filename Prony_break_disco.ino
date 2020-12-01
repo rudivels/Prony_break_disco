@@ -19,8 +19,8 @@ const int LOADCELL_DOUT_PIN = D5;
 const int LOADCELL_SCK_PIN = D6;
 HX711 scale;
 
-const char* ssid =  "xxxxxx"; //
- const char* password =  "yyyyyyy"; // 
+#include "acesso_wifi.h"  // define ssid & password
+
 int ModbusTCP_port = 502;
 
 int sensorValue; 
